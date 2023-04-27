@@ -1,0 +1,116 @@
+* {
+  background-color: black;
+  font-family: "Roboto";
+}
+
+#logoFoto {
+  margin-left: 2.5rem;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  margin-top: 50px;
+}
+
+li {
+  margin: 0 20px;
+}
+
+.nav_a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.563rem;
+}
+.sub {
+  border: 2px solid white;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.563rem;
+}
+.activo {
+  text-decoration: 2px yellow underline;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.563rem;
+}
+#logo {
+  display: flex;
+}
+#vacio {
+  display: flex;
+  margin-top: 100px;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.texto {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.casilla {
+  border: 10px solid white;
+  margin: 10px;
+  border-radius: 10px;
+}
+.bot {
+  color: white;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  position: relative;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+nav li ul li {
+  float: none;
+}
+.girar {
+  transition-duration: 2s;
+  transform: 2s rotateY(180deg);
+}
+.casillagirada {
+  height: 413px;
+  width: 300px;
+}
